@@ -2,6 +2,8 @@ import {TopBar} from './assets/components/Topbar'
 import { Skills } from './assets/components/Skills';
 import { LinkedInIcon } from './assets/components/LinkedInIcon';
 import { GithubIcon } from './assets/components/GithubIcon';
+import { Experience } from './assets/components/Experience';
+import { Projects } from './assets/components/Projects';
 import purpleGradient from './assets/images/purplegradientBest.png';
 
 function App() {
@@ -56,6 +58,8 @@ function App() {
           <Skills></Skills>
           </div>
           </div>
+          <Experience/>
+          <Projects/>
           </main>
       </div>
   );
