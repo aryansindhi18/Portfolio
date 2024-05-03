@@ -1,10 +1,15 @@
+
 export function TopBar(){
+
+    
+
     return <div className="bg-[#fafafa] fixed top-0 left-0 w-full z-50 shadow h-14 flex justify-between px-4 py-8">
         <div className=" font-bold text-2xl flex flex-col justify-center ml-4 h-full">
             Aryan Sindhi.
         </div>
+        
         <div className="flex items-center mr-4">
-            <div className="flex text-lg font-semibold gap-7 items-end"><a className="hover:cursor-pointer hover:text-purple-900">About Me</a><a className="hover:cursor-pointer hover:text-purple-900">Experience</a><a className="hover:cursor-pointer hover:text-purple-900">Projects</a>
+            <div className="hidden md:flex text-lg font-semibold gap-7 items-end"><a className="hover:cursor-pointer hover:text-purple-900">About Me</a><a className="hover:cursor-pointer hover:text-purple-900">Experience</a><a className="hover:cursor-pointer hover:text-purple-900">Projects</a>
             </div>
         </div>
             

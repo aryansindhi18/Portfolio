@@ -7,7 +7,7 @@ import purpleGradient from './assets/images/purplegradientBest.png';
 function App() {
   return (
       <div className=''>
-          <TopBar />
+          <TopBar/>
           <main className="pt-16 #fafafa h-full">
           <div className='flex justify-center py-4'>
           <div className="bg-[#F7F7F7] flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 sm:gap-3 gap-4 font-light text-md">
@@ -23,7 +23,7 @@ function App() {
           </div>
           
           <div className='flex justify-center'>
-            <div className='text-6xl font-extrabold'>Software Developer.</div>
+            <div className='text-6xl font-extrabold text-center'>Software Developer.</div>
           </div>
           <div></div>
           <div className=' flex justify-center items-center text-gray-500 text-base font-bold text-center'>
@@ -46,7 +46,7 @@ function App() {
                 {/* </div> */}
               </div>
               {/* <div className='flex items-center justify-center'>
-                  <button className="bg-black hover:shadow-lg hover:bg-slate-800
+                  <button classNa`me="bg-black hover:shadow-lg hover:bg-slate-800
                    text-white text-md rounded-lg py-2 px-8">
                     Work with me -&gt;
                   </button>
