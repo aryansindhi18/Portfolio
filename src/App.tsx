@@ -58,6 +58,7 @@ function App() {
           <Skills></Skills>
           </div>
           </div>
+          <div className="h-8"></div>
           <Experience/>
           <Projects/>
           </main>
