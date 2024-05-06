@@ -2,7 +2,7 @@ export function Experience(){
     return <>
         <div id="experience" className="flex flex-col bg-[#FAFAFA] items-center px-4 sm:px-6 md:px-8 justify-center">
             <div className="w-full lg:w-[980px] items-start font-extrabold text-gray-500 text-2xl mt-8 mb-3 sm:mt-10 sm:mb-5 px-4">
-                PROFESIONAL EXPERIENCE
+                PROFESSIONAL EXPERIENCE
             </div>
             <div className="bg-white flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 gap-4 font-light text-md mb-8">
                 <div className="f`lex justify-between md:gap-2 items-baseline flex-col md:flex-row">
