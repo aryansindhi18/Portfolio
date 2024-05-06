@@ -21,7 +21,7 @@ function App() {
           </div>
           </div>
           <div className='flex justify-center py-3'>
-            <div className='text-3xl text-regal-grey font-bold'>Hi, I'm Aryan...</div>
+            <div className='text-3xl text-regal-grey font-bold'>Hi, I'm Aryan.</div>
           </div>
           
           <div className='flex justify-center'>
