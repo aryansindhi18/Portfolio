@@ -11,7 +11,7 @@ function App() {
       <div className='scroll-smooth'>
           <TopBar/>
           <main className="pt-16 #fafafa h-full">
-          <div id='AboutMe' className='flex justify-center py-4'>
+          <div id='AboutMe' className='flex justify-center py-4 scroll-my-10'>
           <div className="bg-[#F7F7F7] flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 sm:gap-3 gap-4 font-light text-md">
             <div className='flex justify-center '>
               <div className=" rounded-full h-64 w-64 mt-1 mr-2 flex justify-center">
