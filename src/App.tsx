@@ -8,7 +8,7 @@ import purpleGradient from './assets/images/purplegradientBest.png';
 
 function App() {
   return (
-      <div className=''>
+      <div className='scroll-smooth'>
           <TopBar/>
           <main className="pt-16 #fafafa h-full">
           <div id='AboutMe' className='flex justify-center py-4'>
