@@ -1,5 +1,3 @@
-import Share2Pay from '../Share2Pay.gif'
-import xiangsu from '../xiangsu.gif'
 export function Projects(){
     return <>
         <div id="projects" className="bg-white flex flex-col items-center px-3 sm:px-10 scroll-my-10">
