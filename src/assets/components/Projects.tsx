@@ -12,7 +12,8 @@ export function Projects(){
                 </div>
                 <div className="flex gap-2 lg:gap-8 flex-col lg:flex-row mt-3">
                     <div className="flex-grow">
-                        <img src={Share2Pay} alt="project" className="h-auto max-w-full rounded-lg" />
+                        {/* <img src={Share2Pay} alt="project" className="h-auto max-w-full rounded-lg" /> */}
+                        <img src="https://drive.google.com/thumbnail?id=10coGoC17n_yQz93imIMEP1_dYkmer8Fq&sz=w1000" alt="Share2Pay" className="h-auto max-w-full rounded-lg"/>
                     </div>
                     <div className="flex flex-col gap-4 lg:w-[700px] font-light mt-2 justify-evenly">
                         <div>
@@ -39,7 +40,8 @@ export function Projects(){
                 </div>
                 <div className="flex gap-2 lg:gap-8 flex-col lg:flex-row mt-3">
                     <div className="flex-grow">
-                        <img src={xiangsu} alt="project" className="h-auto max-w-full rounded-lg" />
+                        {/* <img src={xiangsu} alt="project" className="h-auto max-w-full rounded-lg" /> */}
+                        <img src="https://drive.google.com/thumbnail?id=1DVQtQmH6rAHhfixddBFbicia6OMdam_0&sz=w1000" alt="Xiang-Su" className="h-auto max-w-full rounded-lg"/>
                     </div>
                     <div className="flex flex-col gap-4 lg:w-[700px] font-light mt-2 justify-evenly">
                         <div>
@@ -55,6 +57,34 @@ export function Projects(){
                         </div>
                         <button type="button" className="w-60 py-2.5 px-5 text-sm font-medium rounded-lg border focus:z-10 focus:ring-4 focus:ring-gray-100 bg-gray-800 text-white border-gray-600 hover:bg-gray-700" onClick={() => window.open('https://github.com/aryansindhi18/xiang-su', '_blank')}>
                             Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+            {/* ========================================================================== */}
+            <div className="bg-[#F7F7F7] flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 gap-4 font-light text-md mb-8">
+                <div className="font-bold text-xl">
+                    Narrate.ly: Empowering Stories.
+                </div>
+                <div className="flex gap-2 lg:gap-8 flex-col lg:flex-row mt-3">
+                    <div className="flex-grow">
+                        {/* <img src={xiangsu} alt="project" className="h-auto max-w-full rounded-lg" /> */}
+                        <img src="https://drive.google.com/thumbnail?id=1jw5qQpQYT5lzjgpG206Hdl-uIgG_XeH-&sz=w1000" alt="Narrate.ly" className="h-auto max-w-full rounded-lg"/>
+                    </div>
+                    <div className="flex flex-col gap-4 lg:w-[700px] font-light mt-2 justify-evenly">
+                        <div>
+                            A dynamic blogging platform where thoughts transform into impactful narratives. Inspired by the simplicity and reach of Medium, Narrate.ly leverages modern web technologies to provide a seamless writing and reading experience.
+                        </div>
+                        <div className="flex-wrap flex gap-2 mt-1">
+                            <div className="bg-gray-200 rounded-lg items-center justify-center flex px-4 py-0.5 text-sm">ReactJs</div>
+                            <div className="bg-gray-200 rounded-lg items-center justify-center flex px-4 py-0.5 text-sm">PostgresSql</div>
+                            <div className="bg-gray-200 rounded-lg items-center justify-center flex px-4 py-0.5 text-sm">Hono</div>
+                            <div className="bg-gray-200 rounded-lg items-center justify-center flex px-4 py-0.5 text-sm">Cloudflare Workers</div>
+                            <div className="bg-gray-200 rounded-lg items-center justify-center flex px-4 py-0.5 text-sm">Prisma</div>
+                            <div className="bg-gray-200 rounded-lg items-center justify-center flex px-4 py-0.5 text-sm">Tailwind</div>
+                        </div>
+                        <button type="button" className="w-60 py-2.5 px-5 text-sm font-medium rounded-lg border focus:z-10 focus:ring-4 focus:ring-gray-100 bg-gray-800 text-white border-gray-600 hover:bg-gray-700" onClick={() => window.open('https://narrate.ly.aryansindhi18.co.in/', '_blank')}>
+                        Check it out!
                         </button>
                     </div>
                 </div>
