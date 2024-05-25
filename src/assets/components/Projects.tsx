@@ -12,7 +12,12 @@ export function Projects(){
                 <div className="flex gap-2 lg:gap-8 flex-col lg:flex-row mt-3">
                     <div className="flex-grow">
                         {/* <img src={Share2Pay} alt="project" className="h-auto max-w-full rounded-lg" /> */}
-                        <img src="https://drive.google.com/thumbnail?id=10coGoC17n_yQz93imIMEP1_dYkmer8Fq&sz=w1000" alt="Share2Pay" className="h-auto max-w-full rounded-lg"/>
+                        {/* <img src="https://drive.google.com/thumbnail?id=10coGoC17n_yQz93imIMEP1_dYkmer8Fq&sz=w1000" alt="Share2Pay" className="h-auto max-w-full rounded-lg"/> */}
+                        <ImageWithPlaceholder
+                            src="https://drive.google.com/thumbnail?id=10coGoC17n_yQz93imIMEP1_dYkmer8Fq&sz=w1000"
+                            alt="Share2Pay"
+                            placeholderSrc="https://drive.google.com/thumbnail?id=193XGnV0VZeLzmPq7z138byB0PM5sqtm4&sz=w1000"
+                        />
                     </div>
                     <div className="flex flex-col gap-4 lg:w-[700px] font-light mt-2 justify-evenly">
                         <div>
@@ -43,7 +48,7 @@ export function Projects(){
                         {/* <img src="https://drive.google.com/thumbnail?id=1DVQtQmH6rAHhfixddBFbicia6OMdam_0&sz=w1000" loading="lazy" alt="Xiang-Su" className="h-auto max-w-full rounded-lg"/> */}
                         <ImageWithPlaceholder
                             src="https://drive.google.com/thumbnail?id=1DVQtQmH6rAHhfixddBFbicia6OMdam_0&sz=w1000"
-                            alt="Narrate.ly"
+                            alt="Xiang-Su"
                             placeholderSrc="https://drive.google.com/thumbnail?id=1-qif1hFx-kLNS5FAh7wUxYXJ5X4gnz3T&sz=w1000"
                         />
                     </div>
@@ -73,7 +78,12 @@ export function Projects(){
                 <div className="flex gap-2 lg:gap-8 flex-col lg:flex-row mt-3">
                     <div className="flex-grow">
                         {/* <img src={xiangsu} alt="project" className="h-auto max-w-full rounded-lg" /> */}
-                        <img src="https://drive.google.com/thumbnail?id=1jw5qQpQYT5lzjgpG206Hdl-uIgG_XeH-&sz=w1000" alt="Narrate.ly" className="h-auto max-w-full rounded-lg"/>
+                        {/* <img src="https://drive.google.com/thumbnail?id=1jw5qQpQYT5lzjgpG206Hdl-uIgG_XeH-&sz=w1000" alt="Narrate.ly" className="h-auto max-w-full rounded-lg"/> */}
+                        <ImageWithPlaceholder
+                            src="https://drive.google.com/thumbnail?id=1jw5qQpQYT5lzjgpG206Hdl-uIgG_XeH-&sz=w1000"
+                            alt="Narrate.ly"
+                            placeholderSrc="https://drive.google.com/thumbnail?id=1n28A46MUX_eVqao_SNIcS-3YTS0oMmLC&sz=w1000"
+                        />
                     </div>
                     <div className="flex flex-col gap-4 lg:w-[700px] font-light mt-2 justify-evenly">
                         <div>
