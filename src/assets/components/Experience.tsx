@@ -7,7 +7,7 @@ export function Experience(){
             <div className="bg-white flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 gap-4 font-light text-md mb-8">
                 <div className="f`lex justify-between md:gap-2 items-baseline flex-col md:flex-row">
                     <div className="font-bold text-xl">
-                        Smart Energy Water | Product Engineer
+                        Smart Energy Water | Software Engineer
                     </div>
                     <div className="font-semibold text-lg text-gray-500">
                         Noida, UP | July 2021 - Feb 2024
@@ -58,7 +58,7 @@ export function Experience(){
             <div className="bg-white flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 gap-4 font-light text-md mb-8">
                 <div className="flex justify-between md:gap-2 items-baseline flex-col md:flex-row">
                     <div className="font-bold text-xl">
-                        Smart Energy Water | Product Engineering Intern
+                        Smart Energy Water | Software Engineer Intern
                     </div>
                     <div className="font-semibold text-lg text-gray-500">
                         Noida, UP | Jan 2021 - June 2024
