@@ -5,6 +5,30 @@ export function Experience(){
                 PROFESSIONAL EXPERIENCE
             </div>
             <div className="bg-white flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 gap-4 font-light text-md mb-8">
+                <div className="flex justify-between md:gap-2 items-baseline flex-col md:flex-row">
+                    <div className="font-bold text-xl">
+                        Digicraft.ai | Software Engineer
+                    </div>
+                    <div className="font-semibold text-lg text-gray-500">
+                        Gurugram, Haryana | June 2024 - Present
+                    </div>
+                </div>
+                <div className="gap-1.5 flex flex-col text-[15px]">
+                    <div>
+                        {/* <ul > */}
+                        <ul style={{ listStyleType: "disc", paddingLeft: "40px" }}>
+                            <li>
+                                Developed a reconciliation system to resolve data discrepancies between PostgreSQL and Elasticsearch, reducing customer complaints related to missing data by 80%.
+                            </li>
+                            <li>
+                                Developed a reporting mechanism to identify unsynced records every hour by comparing PostgreSQL data with Elasticsearch indices, ensuring accurate data availability for auto-complete and search functionalities.
+                            </li>     
+                        </ul>
+                    </div>
+                </div>   
+            </div>
+            {/* ================================================ */}
+            <div className="bg-white flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 gap-4 font-light text-md mb-8">
                 <div className="f`lex justify-between md:gap-2 items-baseline flex-col md:flex-row">
                     <div className="font-bold text-xl">
                         Smart Energy Water | Software Engineer
@@ -61,7 +85,7 @@ export function Experience(){
                         Smart Energy Water | Software Engineer Intern
                     </div>
                     <div className="font-semibold text-lg text-gray-500">
-                        Noida, UP | Jan 2021 - June 2024
+                        Noida, UP | Jan 2021 - June 2021
                     </div>
                 </div>
                 <div className="gap-1.5 flex flex-col text-[15px]">
