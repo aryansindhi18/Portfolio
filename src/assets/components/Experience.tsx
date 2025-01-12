@@ -29,7 +29,7 @@ export function Experience(){
             </div>
             {/* ================================================ */}
             <div className="bg-white flex flex-col w-full lg:w-[950px] shadow-md rounded-3xl py-10 px-6 sm:px-8 md:px-12 gap-4 font-light text-md mb-8">
-                <div className="f`lex justify-between md:gap-2 items-baseline flex-col md:flex-row">
+                <div className="flex justify-between md:gap-2 items-baseline flex-col md:flex-row">
                     <div className="font-bold text-xl">
                         Smart Energy Water | Software Engineer
                     </div>
