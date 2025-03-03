@@ -19,7 +19,7 @@ export function TopBar(){
             {/* <a href="https://twitter.com/AryanSindhi" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 mx-2">Twitter</a>
             <a href="https://linkedin.com/in/aryan-sindhi" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 mx-2">LinkedIn</a>
             <a href="https://github.com/aryansindhi18" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700 mx-2">GitHub</a> */}
-            {/* <button onClick={() => window.open('https://drive.google.com/file/d/1YJHTwxtmALauHnQv2qRvhEStZIu_zhus/view?usp=sharing', '_blank')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold mx-2 py-2 px-4 rounded">
+            {/* <button onClick={() => window.open('https://drive.google.com/file/d/1kRc1AsaXHDoAafK7uki1AI6FjAGH1gtt/view', '_blank')} className="bg-blue-500 hover:bg-blue-700 text-white font-bold mx-2 py-2 px-4 rounded">
                 View Resume
             </button> */}
             <div className="flex items-center mr-4">
