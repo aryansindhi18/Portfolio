@@ -18,11 +18,17 @@ export function Experience(){
                         {/* <ul > */}
                         <ul style={{ listStyleType: "disc", paddingLeft: "40px" }}>
                             <li>
-                                Developed a reconciliation system to resolve data discrepancies between PostgreSQL and Elasticsearch, reducing customer complaints related to missing data by 80%.
+                                Developed a comprehensive Node.js API to identify and synchronise data discrepancies between SQL database and Elasticsearch, enhancing real-time data integrity and reducing customer complaints by 80%.
                             </li>
                             <li>
-                                Developed a reporting mechanism to identify unsynced records every hour by comparing PostgreSQL data with Elasticsearch indices, ensuring accurate data availability for auto-complete and search functionalities.
-                            </li>     
+                                Created a React.js frontend for data monitoring and reconciliation workflows, improving user experience and operational transparency.
+                            </li>
+                            <li>
+                                Optimised SQL queries and offloaded read-heavy operations to the database reader instance, significantly reducing query execution time and decreasing load on the master database.
+                            </li>
+                            <li>
+                                Developed automated health checks and robust error-handling workflows, reducing system downtime and enhancing overall system resilience. 
+                            </li>
                         </ul>
                     </div>
                 </div>   
